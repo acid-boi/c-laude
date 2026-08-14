@@ -1,4 +1,4 @@
-#Steps to create 
+# Steps to create 
   - Run claude setup token in your host terminal.
   - Build the docker image. Make sure you are changing the password.
   - Spin up a container using the command given below.
@@ -17,7 +17,7 @@
   --name file-upload \
   filebrowser/filebrowser`
 `
-#Todos
+# Todos
   - Make this setup run through a doker-compose instead of manually runing conatiners.
   - Update the `my-claude-image` image such that it has a place holder for the `CLAUDE_ CLAUDE_CODE_OAUTH_TOKEN` so that the user doesn't have to update it in the container manuallly.
   - Make this whole setup run through a single command that needs to be run that returns a JSON containing IP, password and commands to ssh into the container and the file upload system.
